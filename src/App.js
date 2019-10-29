@@ -16,6 +16,7 @@ function App() {
               exact
               component={Login}
             />
+            <i>000000000</i>
             <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
           </Switch>
         </div>
