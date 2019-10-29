@@ -17,12 +17,9 @@ function App() {
               component={Login}
             />
             <i>000000000</i>
-<<<<<<< HEAD
             <i>nishi</i>
-=======
             <i>11111111</i>
             <i>nishi 2222222222</i>
->>>>>>> 0036d33056a4ba85efa4905e5c993f3fae5d52b5
             <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
           </Switch>
         </div>
