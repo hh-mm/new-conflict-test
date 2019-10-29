@@ -1,0 +1,76 @@
+.ant-layout {
+  height: 100vh;
+}
+//布局样式
+.ant-layout {
+  .trigger {
+    font-size: 24px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+    vertical-align: middle;
+    &:hover {
+      color: #1890ff;
+    }
+  }
+
+  .logo {
+    background: transparent;
+    text-align: center;
+    position: relative;
+    height: 64px;
+    // padding-left      : 24px;
+    overflow: hidden;
+    line-height: 64px;
+    // background        : #001529;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .ant-menu-horizontal {
+    .ant-menu-submenu {
+      &:hover {
+        border-bottom: 0;
+      }
+    }
+  }
+  // 横导航右侧 按钮样式重置
+  .header-right {
+    height: 64px;
+    cursor: pointer;
+    padding-right: 24px;
+    span {
+      display: inline-block;
+      padding: 0 10px;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.025);
+      }
+    }
+  }
+}
+.ant-dropdown {
+  .ant-dropdown-menu {
+    margin: 16px 0 0;
+  }
+  .ant-dropdown-menu-item.language,
+  .ant-dropdown-menu-submenu-title {
+    padding: 5px 26px;
+    .ant-dropdown-menu-submenu-arrow {
+      right: 2px;
+    }
+  }
+}
+
+// 消息信息提示样式
+.ant-modal.bell-dialog {
+  right: 80px;
+  width: 350px !important;
+  position: absolute;
+  top: 68px;
+}
+.ant-layout-sider-dark {
+  box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+}
+.ant-layout-header {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
