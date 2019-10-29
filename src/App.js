@@ -20,6 +20,7 @@ function App() {
           </Switch>
         </div>
       </Router>
+      <button>my button</button>
     </div>
   )
 }

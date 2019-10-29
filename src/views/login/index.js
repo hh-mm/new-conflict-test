@@ -11,7 +11,7 @@ const Login = ({ history }) => {
         Login
       </Button>
       <Button type="primary" onClick={LoginFunc}>
-        Logout
+        test for conflict
       </Button>
       <Button type="primary" onClick={LoginFunc}>
         haha

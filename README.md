@@ -7,7 +7,7 @@
 - antd :UI 库 ;
 - customize-cra+babel-plugin-import+react-app-rewired:支持 antd 按需引入 ;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Ant design with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
