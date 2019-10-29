@@ -17,6 +17,7 @@ function App() {
               component={Login}
             />
             <i>000000000</i>
+            <i>nishi 2222222222</i>
             <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
           </Switch>
         </div>
