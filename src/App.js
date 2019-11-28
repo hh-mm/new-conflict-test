@@ -18,7 +18,6 @@ function App() {
             />
             <i>哎呀</i>
             <i>nishi 2222222222</i>
-            <span>再来一个呀 嘿呀嘿呀</span>
             <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
           </Switch>
         </div>
