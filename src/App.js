@@ -16,7 +16,8 @@ function App() {
               exact
               component={Login}
             />
-           <button>哎呀 测试</button>
+            <i>哎呀</i>
+            <i>nishi 2222222222</i>
             <Route path={`${process.env.PUBLIC_URL}/`} component={Home} />
           </Switch>
         </div>

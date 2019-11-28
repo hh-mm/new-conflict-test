@@ -1,13 +1,12 @@
 import React from 'react';
-
-class TableList extends Component {
+class OverFloor extends Component {
   constructor(props) {
     super(props);
     this.state = {  }
   }
   render() { 
-    return ( <div>TableList</div> );
+    return ( 'OverFloor' );
   }
 }
  
-export default TableList;
+export default OverFloor;
